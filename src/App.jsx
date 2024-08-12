@@ -27,6 +27,7 @@ const App = () => {
       <ScrollToTop/>
       <Navbar/>
       <Routes>
+        <Route index element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/expertise" element={<Expertise />} />
